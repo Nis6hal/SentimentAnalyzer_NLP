@@ -1,0 +1,402 @@
+Index,Sentence,Sentiment
+0,Weather feels pleasant today.,positive
+1,Nabin travels a lot.,neutral
+2,He missed the deadline.,negative
+3,He is reading a book.,neutral
+4,Team failed to meet expectations.,negative
+5,I love piano.,positive
+6,I am disappointed with the service.,negative
+7,I use to play piano.,neutral
+8,He is helpful but bad at study.,neutral
+9,The solution saved a lot of time.,positive
+10,Rishi ate lunch.,neutral
+11,He missed the deadline.,negative
+12,I hate bananas.,negative
+13,Rishi ate lunch.,neutral
+14,I use laptop.,neutral
+15,I am allergic to cold.,negative
+16,Results were bad.,negative
+17,Roshan is computer student.,neutral
+18,Ram is good boy.,positive
+19,He is handsome.,positive
+20,Rishi ate lunch.,neutral
+21,Mountains are beautiful.,positive
+22,I love mountains.,positive
+23,Shyam is a bad boy.,negative
+24,I am very happy with results.,positive
+25,I use to play piano.,neutral
+26,The solution saved a lot of time.,positive
+27,I am allergic to cold.,negative
+28,Class ended early.,neutral
+29,I am allergic to cold.,negative
+30,I am disappointed with the service.,negative
+31,He is helpful but bad at study.,neutral
+32,I love apples.,positive
+33,I use to play piano.,neutral
+34,Project was completed successfully.,positive
+35,He is reading a book.,neutral
+36,Roshan is computer student.,neutral
+37,I use to play piano.,neutral
+38,Class ended early.,neutral
+39,I love apples.,positive
+40,I love mangoes and hate bananas,neutral
+41,I love apples.,positive
+42,Rishi ate lunch.,neutral
+43,I love mountains.,positive
+44,Nabin travels a lot.,neutral
+45,Ram is good boy.,positive
+46,I love mountains.,positive
+47,The exam was very difficult.,negative
+48,Rishi ate lunch.,neutral
+49,I love piano.,positive
+50,Class ended early.,neutral
+51,He is helpful but bad at study.,neutral
+52,I am disappointed with the service.,negative
+53,Today is Monday.,neutral
+54,Ram is good boy.,positive
+55,I love mangoes and hate bananas,neutral
+56,I am allergic to cold.,negative
+57,The exam was very difficult.,negative
+58,Today is Monday.,neutral
+59,I use to play piano.,neutral
+60,I am allergic to cold.,negative
+61,I love mountains.,positive
+62,I hate bananas.,negative
+63,I am disappointed with the service.,negative
+64,Nabin travels a lot.,neutral
+65,Class ended early.,neutral
+66,Ram is good boy.,positive
+67,He missed the deadline.,negative
+68,The solution saved a lot of time.,positive
+69,Meeting starts at 10 AM.,neutral
+70,I am very happy with results.,positive
+71,Nabin travels a lot.,neutral
+72,He is handsome.,positive
+73,She did excellent in the exam.,positive
+74,Shyam is a bad boy.,negative
+75,I am allergic to cold.,negative
+76,She lives in Pokhara.,neutral
+77,Project was completed successfully.,positive
+78,Meeting starts at 10 AM.,neutral
+79,I use to play piano.,neutral
+80,Project was completed successfully.,positive
+81,Team failed to meet expectations.,negative
+82,I hate bananas.,negative
+83,I am allergic to cold.,negative
+84,She did excellent in the exam.,positive
+85,He is helpful but bad at study.,neutral
+86,New system works perfectly.,positive
+87,Mountains are beautiful.,positive
+88,Ram is good boy.,positive
+89,New system works perfectly.,positive
+90,I hate bananas.,negative
+91,She did excellent in the exam.,positive
+92,Weather feels pleasant today.,positive
+93,New system works perfectly.,positive
+94,I love mountains.,positive
+95,Nabin travels a lot.,neutral
+96,Shyam is a bad boy.,negative
+97,New system works perfectly.,positive
+98,Project was completed successfully.,positive
+99,Today is Monday.,neutral
+100,She did excellent in the exam.,positive
+101,Weather feels pleasant today.,positive
+102,Results were bad.,negative
+103,I am allergic to cold.,negative
+104,I use laptop.,neutral
+105,Mountains are beautiful.,positive
+106,The exam was very difficult.,negative
+107,I love mountains.,positive
+108,I am allergic to cold.,negative
+109,I use to play piano.,neutral
+110,I love mountains.,positive
+111,I love mountains.,positive
+112,He is reading a book.,neutral
+113,I love apples.,positive
+114,He is reading a book.,neutral
+115,He is helpful but bad at study.,neutral
+116,Shyam is a bad boy.,negative
+117,She lives in Pokhara.,neutral
+118,I love mangoes and hate bananas,neutral
+119,I am allergic to cold.,negative
+120,He is helpful but bad at study.,neutral
+121,Results were bad.,negative
+122,Meeting starts at 10 AM.,neutral
+123,The exam was very difficult.,negative
+124,I love mountains.,positive
+125,I use to play piano.,neutral
+126,New system works perfectly.,positive
+127,New system works perfectly.,positive
+128,Meeting starts at 10 AM.,neutral
+129,Nabin travels a lot.,neutral
+130,Rishi ate lunch.,neutral
+131,Project was completed successfully.,positive
+132,The exam was very difficult.,negative
+133,He is helpful but bad at study.,neutral
+134,Project was completed successfully.,positive
+135,Ram is good boy.,positive
+136,I am allergic to cold.,negative
+137,Ram is good boy.,positive
+138,The solution saved a lot of time.,positive
+139,She did excellent in the exam.,positive
+140,New system works perfectly.,positive
+141,He is reading a book.,neutral
+142,I hate bananas.,negative
+143,She lives in Pokhara.,neutral
+144,The exam was very difficult.,negative
+145,She did excellent in the exam.,positive
+146,New system works perfectly.,positive
+147,Meeting starts at 10 AM.,neutral
+148,He is reading a book.,neutral
+149,Weather feels pleasant today.,positive
+150,Roshan is computer student.,neutral
+151,I love mountains.,positive
+152,Ram is good boy.,positive
+153,I use to play piano.,neutral
+154,Today is Monday.,neutral
+155,I love mountains.,positive
+156,Team failed to meet expectations.,negative
+157,She did excellent in the exam.,positive
+158,Class ended early.,neutral
+159,I am very happy with results.,positive
+160,He is reading a book.,neutral
+161,Roshan is computer student.,neutral
+162,Ram is good boy.,positive
+163,I love mangoes and hate bananas,neutral
+164,Team failed to meet expectations.,negative
+165,Results were bad.,negative
+166,Team failed to meet expectations.,negative
+167,I am very happy with results.,positive
+168,I use laptop.,neutral
+169,I use laptop.,neutral
+170,She did excellent in the exam.,positive
+171,I use to play piano.,neutral
+172,She lives in Pokhara.,neutral
+173,Team failed to meet expectations.,negative
+174,Mountains are beautiful.,positive
+175,I use laptop.,neutral
+176,Today is Monday.,neutral
+177,I use to play piano.,neutral
+178,Shyam is a bad boy.,negative
+179,I am very happy with results.,positive
+180,I use to play piano.,neutral
+181,The solution saved a lot of time.,positive
+182,Mountains are beautiful.,positive
+183,I love mangoes and hate bananas,neutral
+184,Mountains are beautiful.,positive
+185,He missed the deadline.,negative
+186,Ram is good boy.,positive
+187,I am allergic to cold.,negative
+188,Results were bad.,negative
+189,The solution saved a lot of time.,positive
+190,Weather feels pleasant today.,positive
+191,Today is Monday.,neutral
+192,New system works perfectly.,positive
+193,He is helpful but bad at study.,neutral
+194,I am allergic to cold.,negative
+195,Team failed to meet expectations.,negative
+196,Nabin travels a lot.,neutral
+197,I am very happy with results.,positive
+198,I am very happy with results.,positive
+199,I love apples.,positive
+200,Roshan is computer student.,neutral
+201,He is reading a book.,neutral
+202,Rishi ate lunch.,neutral
+203,Today is Monday.,neutral
+204,I use to play piano.,neutral
+205,She did excellent in the exam.,positive
+206,Project was completed successfully.,positive
+207,I love piano.,positive
+208,He is helpful but bad at study.,neutral
+209,I love mountains.,positive
+210,She did excellent in the exam.,positive
+211,Project was completed successfully.,positive
+212,I use laptop.,neutral
+213,Today is Monday.,neutral
+214,He missed the deadline.,negative
+215,Project was completed successfully.,positive
+216,Ram is good boy.,positive
+217,I love mangoes and hate bananas,neutral
+218,He is handsome.,positive
+219,I am disappointed with the service.,negative
+220,Roshan is computer student.,neutral
+221,Class ended early.,neutral
+222,He is helpful but bad at study.,neutral
+223,He is handsome.,positive
+224,Today is Monday.,neutral
+225,I use to play piano.,neutral
+226,I love apples.,positive
+227,I love mangoes and hate bananas,neutral
+228,Ram is good boy.,positive
+229,I love apples.,positive
+230,I am disappointed with the service.,negative
+231,She did excellent in the exam.,positive
+232,I love piano.,positive
+233,He is reading a book.,neutral
+234,He is helpful but bad at study.,neutral
+235,He is reading a book.,neutral
+236,Nabin travels a lot.,neutral
+237,New system works perfectly.,positive
+238,He is handsome.,positive
+239,He is handsome.,positive
+240,He missed the deadline.,negative
+241,Weather feels pleasant today.,positive
+242,Rishi ate lunch.,neutral
+243,She did excellent in the exam.,positive
+244,Weather feels pleasant today.,positive
+245,He missed the deadline.,negative
+246,I am disappointed with the service.,negative
+247,I use to play piano.,neutral
+248,He is reading a book.,neutral
+249,Class ended early.,neutral
+250,Ram is good boy.,positive
+251,Rishi ate lunch.,neutral
+252,I love apples.,positive
+253,He missed the deadline.,negative
+254,He is handsome.,positive
+255,I am very happy with results.,positive
+256,I love piano.,positive
+257,I use laptop.,neutral
+258,Class ended early.,neutral
+259,She lives in Pokhara.,neutral
+260,Weather feels pleasant today.,positive
+261,Shyam is a bad boy.,negative
+262,Team failed to meet expectations.,negative
+263,She lives in Pokhara.,neutral
+264,I love mangoes and hate bananas,neutral
+265,I love mangoes and hate bananas,neutral
+266,He missed the deadline.,negative
+267,Weather feels pleasant today.,positive
+268,He is helpful but bad at study.,neutral
+269,New system works perfectly.,positive
+270,She did excellent in the exam.,positive
+271,I love mountains.,positive
+272,I love mangoes and hate bananas,neutral
+273,I use laptop.,neutral
+274,The solution saved a lot of time.,positive
+275,I love piano.,positive
+276,Shyam is a bad boy.,negative
+277,I love piano.,positive
+278,Ram is good boy.,positive
+279,I use laptop.,neutral
+280,Today is Monday.,neutral
+281,Rishi ate lunch.,neutral
+282,The exam was very difficult.,negative
+283,Roshan is computer student.,neutral
+284,Class ended early.,neutral
+285,The solution saved a lot of time.,positive
+286,I hate bananas.,negative
+287,Roshan is computer student.,neutral
+288,Class ended early.,neutral
+289,I love mountains.,positive
+290,The solution saved a lot of time.,positive
+291,He is reading a book.,neutral
+292,I am allergic to cold.,negative
+293,I am disappointed with the service.,negative
+294,I love piano.,positive
+295,Shyam is a bad boy.,negative
+296,I am very happy with results.,positive
+297,The solution saved a lot of time.,positive
+298,Shyam is a bad boy.,negative
+299,Meeting starts at 10 AM.,neutral
+300,Ram is good boy.,positive
+301,I love mountains.,positive
+302,I use to play piano.,neutral
+303,He is handsome.,positive
+304,The exam was very difficult.,negative
+305,Today is Monday.,neutral
+306,I use to play piano.,neutral
+307,Class ended early.,neutral
+308,I am very happy with results.,positive
+309,He missed the deadline.,negative
+310,She lives in Pokhara.,neutral
+311,Weather feels pleasant today.,positive
+312,He is handsome.,positive
+313,Roshan is computer student.,neutral
+314,Class ended early.,neutral
+315,Mountains are beautiful.,positive
+316,I use to play piano.,neutral
+317,Weather feels pleasant today.,positive
+318,Shyam is a bad boy.,negative
+319,New system works perfectly.,positive
+320,Mountains are beautiful.,positive
+321,She lives in Pokhara.,neutral
+322,New system works perfectly.,positive
+323,She lives in Pokhara.,neutral
+324,The solution saved a lot of time.,positive
+325,She did excellent in the exam.,positive
+326,New system works perfectly.,positive
+327,Class ended early.,neutral
+328,Meeting starts at 10 AM.,neutral
+329,He is reading a book.,neutral
+330,I use laptop.,neutral
+331,I love piano.,positive
+332,He is reading a book.,neutral
+333,Weather feels pleasant today.,positive
+334,The solution saved a lot of time.,positive
+335,Project was completed successfully.,positive
+336,I use laptop.,neutral
+337,Meeting starts at 10 AM.,neutral
+338,I love apples.,positive
+339,I love mangoes and hate bananas,neutral
+340,I love mangoes and hate bananas,neutral
+341,I love apples.,positive
+342,Today is Monday.,neutral
+343,I am disappointed with the service.,negative
+344,Rishi ate lunch.,neutral
+345,The solution saved a lot of time.,positive
+346,Rishi ate lunch.,neutral
+347,I love mangoes and hate bananas,neutral
+348,I am disappointed with the service.,negative
+349,She lives in Pokhara.,neutral
+350,He missed the deadline.,negative
+351,I am very happy with results.,positive
+352,Mountains are beautiful.,positive
+353,Mountains are beautiful.,positive
+354,Results were bad.,negative
+355,Today is Monday.,neutral
+356,I am disappointed with the service.,negative
+357,I love mountains.,positive
+358,He is reading a book.,neutral
+359,Roshan is computer student.,neutral
+360,I use laptop.,neutral
+361,Mountains are beautiful.,positive
+362,I hate bananas.,negative
+363,Ram is good boy.,positive
+364,Weather feels pleasant today.,positive
+365,The solution saved a lot of time.,positive
+366,I use to play piano.,neutral
+367,Weather feels pleasant today.,positive
+368,Ram is good boy.,positive
+369,He is reading a book.,neutral
+370,Weather feels pleasant today.,positive
+371,I am disappointed with the service.,negative
+372,Mountains are beautiful.,positive
+373,I love piano.,positive
+374,I hate bananas.,negative
+375,Nabin travels a lot.,neutral
+376,I love piano.,positive
+377,Class ended early.,neutral
+378,I use to play piano.,neutral
+379,Mountains are beautiful.,positive
+380,I use laptop.,neutral
+381,Team failed to meet expectations.,negative
+382,I am very happy with results.,positive
+383,He is handsome.,positive
+384,Today is Monday.,neutral
+385,Mountains are beautiful.,positive
+386,He is handsome.,positive
+387,Shyam is a bad boy.,negative
+388,Ram is good boy.,positive
+389,Roshan is computer student.,neutral
+390,I am disappointed with the service.,negative
+391,Results were bad.,negative
+392,I love mountains.,positive
+393,I love mangoes and hate bananas,neutral
+394,He missed the deadline.,negative
+395,Ram is good boy.,positive
+396,I am allergic to cold.,negative
+397,I am allergic to cold.,negative
+398,Rishi ate lunch.,neutral
+399,Roshan is computer student.,neutral
+400,Today is Monday.,neutral
