@@ -6,49 +6,43 @@ def apply_styles():
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
         /* -------------------------------------------------------------
-           NEUMORPHIC DESIGN SYSTEM TOKENS (LIGHT & DARK ADAPTIVE)
+           HIGH-CONTRAST NEUMORPHIC DESIGN SYSTEM
         ------------------------------------------------------------- */
         :root {
             --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
             --font-code: 'JetBrains Mono', monospace;
 
-            /* Light Neumorphism Default */
-            --bg-base: #e8ecf2;
-            --neu-surface: #e8ecf2;
-            --neu-dark: #c2cbd6;
-            --neu-light: #ffffff;
-            --neu-dark-rgb: 194, 203, 214;
-            --neu-light-rgb: 255, 255, 255;
+            /* Crisp Light Porcelain Neumorphism */
+            --bg-base: #eef2f7;
+            --neu-surface: #eef2f7;
+            --neu-shadow-dark: #bac7d6;
+            --neu-shadow-light: #ffffff;
+            --neu-border: rgba(255, 255, 255, 0.85);
 
-            /* Shadows */
-            --shadow-raised: 8px 8px 18px var(--neu-dark), -8px -8px 18px var(--neu-light);
-            --shadow-raised-sm: 4px 4px 10px var(--neu-dark), -4px -4px 10px var(--neu-light);
-            --shadow-raised-lg: 14px 14px 28px var(--neu-dark), -14px -14px 28px var(--neu-light);
-            --shadow-inset: inset 4px 4px 8px var(--neu-dark), inset -4px -4px 8px var(--neu-light);
-            --shadow-inset-sm: inset 2px 2px 5px var(--neu-dark), inset -2px -2px 5px var(--neu-light);
+            /* High-Contrast Typography */
+            --text-primary: #0f172a;       /* slate-900 (ultra-crisp) */
+            --text-secondary: #334155;     /* slate-700 (sharp & clear) */
+            --text-muted: #64748b;         /* slate-500 */
 
-            /* Typography & Colors */
-            --text-primary: #2d3748;
-            --text-secondary: #64748b;
-            --text-muted: #94a3b8;
+            /* Neomorphic Shadows */
+            --shadow-raised: 8px 8px 18px var(--neu-shadow-dark), -8px -8px 18px var(--neu-shadow-light);
+            --shadow-raised-sm: 4px 4px 10px var(--neu-shadow-dark), -4px -4px 10px var(--neu-shadow-light);
+            --shadow-raised-lg: 12px 12px 26px var(--neu-shadow-dark), -12px -12px 26px var(--neu-shadow-light);
+            --shadow-inset: inset 4px 4px 8px var(--neu-shadow-dark), inset -4px -4px 8px var(--neu-shadow-light);
+            --shadow-inset-sm: inset 2px 2px 5px var(--neu-shadow-dark), inset -2px -2px 5px var(--neu-shadow-light);
 
             /* Accents */
-            --primary: #6366f1;
-            --primary-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
-            --primary-glow: rgba(99, 102, 241, 0.35);
+            --primary: #4f46e5;
+            --primary-gradient: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+            --primary-glow: rgba(79, 70, 229, 0.3);
 
-            /* Sentiment Accents */
-            --pos-color: #10b981;
-            --pos-bg: rgba(16, 185, 129, 0.12);
-            --pos-glow: 0 4px 16px rgba(16, 185, 129, 0.28);
-
-            --neu-color: #0ea5e9;
-            --neu-bg: rgba(14, 165, 233, 0.12);
-            --neu-glow: 0 4px 16px rgba(14, 165, 233, 0.28);
-
-            --neg-color: #f43f5e;
-            --neg-bg: rgba(244, 63, 94, 0.12);
-            --neg-glow: 0 4px 16px rgba(244, 63, 94, 0.28);
+            /* Sentiment Tokens */
+            --pos-color: #059669;          /* emerald-600 */
+            --pos-bg: rgba(5, 150, 105, 0.12);
+            --neu-color: #0284c7;          /* sky-600 */
+            --neu-bg: rgba(2, 132, 199, 0.12);
+            --neg-color: #e11d48;          /* rose-600 */
+            --neg-bg: rgba(225, 29, 72, 0.12);
         }
 
         /* Dark Neumorphic Palette */
@@ -56,62 +50,57 @@ def apply_styles():
             :root {
                 --bg-base: #181b20;
                 --neu-surface: #181b20;
-                --neu-dark: #101216;
-                --neu-light: #242931;
-                --neu-dark-rgb: 16, 18, 22;
-                --neu-light-rgb: 36, 41, 49;
+                --neu-shadow-dark: #0d0f12;
+                --neu-shadow-light: #23272f;
+                --neu-border: rgba(255, 255, 255, 0.08);
 
-                --shadow-raised: 8px 8px 18px var(--neu-dark), -8px -8px 18px var(--neu-light);
-                --shadow-raised-sm: 4px 4px 10px var(--neu-dark), -4px -4px 10px var(--neu-light);
-                --shadow-raised-lg: 14px 14px 28px var(--neu-dark), -14px -14px 28px var(--neu-light);
-                --shadow-inset: inset 4px 4px 8px var(--neu-dark), inset -4px -4px 8px var(--neu-light);
-                --shadow-inset-sm: inset 2px 2px 5px var(--neu-dark), inset -2px -2px 5px var(--neu-light);
+                --text-primary: #f8fafc;
+                --text-secondary: #cbd5e1;
+                --text-muted: #94a3b8;
 
-                --text-primary: #f1f5f9;
-                --text-secondary: #94a3b8;
-                --text-muted: #64748b;
+                --shadow-raised: 8px 8px 18px var(--neu-shadow-dark), -8px -8px 18px var(--neu-shadow-light);
+                --shadow-raised-sm: 4px 4px 10px var(--neu-shadow-dark), -4px -4px 10px var(--neu-shadow-light);
+                --shadow-raised-lg: 12px 12px 26px var(--neu-shadow-dark), -12px -12px 26px var(--neu-shadow-light);
+                --shadow-inset: inset 4px 4px 8px var(--neu-shadow-dark), inset -4px -4px 8px var(--neu-shadow-light);
+                --shadow-inset-sm: inset 2px 2px 5px var(--neu-shadow-dark), inset -2px -2px 5px var(--neu-shadow-light);
 
                 --primary: #818cf8;
-                --primary-gradient: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
-                --primary-glow: rgba(129, 140, 248, 0.4);
+                --primary-gradient: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+                --primary-glow: rgba(129, 140, 248, 0.35);
 
-                --pos-color: #34d399;
-                --pos-bg: rgba(52, 211, 153, 0.16);
-                --pos-glow: 0 4px 20px rgba(52, 211, 153, 0.35);
-
+                --pos-color: #10b981;
+                --pos-bg: rgba(16, 185, 129, 0.18);
                 --neu-color: #38bdf8;
-                --neu-bg: rgba(56, 189, 248, 0.16);
-                --neu-glow: 0 4px 20px rgba(56, 189, 248, 0.35);
-
+                --neu-bg: rgba(56, 189, 248, 0.18);
                 --neg-color: #fb7185;
-                --neg-bg: rgba(251, 113, 133, 0.16);
-                --neg-glow: 0 4px 20px rgba(251, 113, 133, 0.35);
+                --neg-bg: rgba(251, 113, 133, 0.18);
             }
         }
 
-        /* Streamlit UI Theme Sync */
         [data-theme="dark"], .stApp[data-theme="dark"] {
             --bg-base: #181b20;
             --neu-surface: #181b20;
-            --neu-dark: #101216;
-            --neu-light: #242931;
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --text-muted: #64748b;
-        }
-
-        [data-theme="light"], .stApp[data-theme="light"] {
-            --bg-base: #e8ecf2;
-            --neu-surface: #e8ecf2;
-            --neu-dark: #c2cbd6;
-            --neu-light: #ffffff;
-            --text-primary: #2d3748;
-            --text-secondary: #64748b;
+            --neu-shadow-dark: #0d0f12;
+            --neu-shadow-light: #23272f;
+            --neu-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
             --text-muted: #94a3b8;
         }
 
+        [data-theme="light"], .stApp[data-theme="light"] {
+            --bg-base: #eef2f7;
+            --neu-surface: #eef2f7;
+            --neu-shadow-dark: #bac7d6;
+            --neu-shadow-light: #ffffff;
+            --neu-border: rgba(255, 255, 255, 0.85);
+            --text-primary: #0f172a;
+            --text-secondary: #334155;
+            --text-muted: #64748b;
+        }
+
         /* -------------------------------------------------------------
-           GLOBAL CANVAS & TYPOGRAPHY
+           CANVAS & STREAMLIT CONTAINER OVERRIDES
         ------------------------------------------------------------- */
         html, body, [class*="css"] {
             font-family: var(--font-main) !important;
@@ -122,120 +111,36 @@ def apply_styles():
             color: var(--text-primary) !important;
         }
 
+        /* Real Streamlit Container Wrapping */
+        div[data-testid="stVerticalBlockBorderWrapper"] {
+            background: var(--neu-surface) !important;
+            border: 1px solid var(--neu-border) !important;
+            border-radius: 22px !important;
+            box-shadow: var(--shadow-raised) !important;
+            padding: 1.6rem !important;
+            margin-bottom: 1.5rem !important;
+            transition: box-shadow 0.25s ease, transform 0.25s ease !important;
+        }
+
+        div[data-testid="stVerticalBlockBorderWrapper"]:hover {
+            box-shadow: var(--shadow-raised-lg) !important;
+        }
+
         /* Sidebar Styling */
         section[data-testid="stSidebar"] {
             background-color: var(--bg-base) !important;
-            border-right: 1px solid rgba(128, 128, 128, 0.12) !important;
-            box-shadow: 4px 0 20px rgba(0, 0, 0, 0.04) !important;
+            border-right: 1px solid var(--neu-border) !important;
+            box-shadow: 4px 0 16px rgba(0, 0, 0, 0.03) !important;
         }
 
-        section[data-testid="stSidebar"] .stMarkdown h3 {
+        section[data-testid="stSidebar"] h3 {
             color: var(--text-primary) !important;
             font-weight: 700 !important;
-            letter-spacing: -0.02em !important;
+            letter-spacing: -0.01em !important;
         }
 
         /* -------------------------------------------------------------
-           NEUMORPHIC CARDS & CONTAINERS
-        ------------------------------------------------------------- */
-        .neu-card {
-            background: var(--neu-surface);
-            border-radius: 26px;
-            padding: 2.2rem;
-            box-shadow: var(--shadow-raised);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            margin-bottom: 1.8rem;
-            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .neu-card:hover {
-            box-shadow: var(--shadow-raised-lg);
-            transform: translateY(-2px);
-        }
-
-        .neu-well {
-            background: var(--neu-surface);
-            border-radius: 18px;
-            padding: 1.25rem;
-            box-shadow: var(--shadow-inset);
-            border: none;
-            margin-bottom: 1.2rem;
-        }
-
-        /* -------------------------------------------------------------
-           NEUMORPHIC HERO BANNER
-        ------------------------------------------------------------- */
-        .neu-hero {
-            position: relative;
-            text-align: center;
-            padding: 3.5rem 2rem 2.8rem 2rem;
-            background: var(--neu-surface);
-            border-radius: 32px;
-            box-shadow: var(--shadow-raised);
-            margin-bottom: 2.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            overflow: hidden;
-        }
-
-        .neu-pill-tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 7px 18px;
-            border-radius: 9999px;
-            font-size: 0.82rem;
-            font-weight: 700;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            background: var(--neu-surface);
-            box-shadow: var(--shadow-raised-sm);
-            color: var(--primary);
-            margin-bottom: 1.25rem;
-            transition: all 0.2s ease;
-        }
-
-        .neu-pulse-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background-color: var(--pos-color);
-            box-shadow: 0 0 10px var(--pos-color);
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(0.95); opacity: 0.8; }
-            50% { transform: scale(1.3); opacity: 1; }
-            100% { transform: scale(0.95); opacity: 0.8; }
-        }
-
-        .neu-hero-title {
-            font-size: clamp(2.6rem, 5.5vw, 4rem);
-            font-weight: 800;
-            letter-spacing: -0.04em;
-            margin-bottom: 0.75rem;
-            color: var(--text-primary);
-            text-shadow: 2px 2px 4px rgba(var(--neu-dark-rgb), 0.6);
-            line-height: 1.1;
-        }
-
-        .neu-hero-title span {
-            background: var(--primary-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .neu-hero-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            max-width: 650px;
-            margin: 0 auto;
-            line-height: 1.6;
-            font-weight: 400;
-        }
-
-        /* -------------------------------------------------------------
-           STREAMLIT NATIVE INPUTS (TEXTAREA & INPUTS)
+           STREAMLIT NATIVE INPUTS (TEXTAREA)
         ------------------------------------------------------------- */
         div[data-baseweb="textarea"] {
             background-color: transparent !important;
@@ -245,13 +150,13 @@ def apply_styles():
         .stTextArea textarea {
             background: var(--neu-surface) !important;
             border: none !important;
-            border-radius: 20px !important;
-            padding: 1.25rem !important;
-            font-size: 1.05rem !important;
+            border-radius: 16px !important;
+            padding: 1.1rem 1.25rem !important;
+            font-size: 1rem !important;
             font-family: var(--font-main) !important;
             color: var(--text-primary) !important;
             box-shadow: var(--shadow-inset) !important;
-            transition: all 0.25s ease !important;
+            transition: all 0.2s ease !important;
             line-height: 1.5 !important;
         }
 
@@ -261,19 +166,18 @@ def apply_styles():
         }
 
         /* -------------------------------------------------------------
-           STREAMLIT BUTTONS (TACTILE NEUMORPHIC)
+           TACTILE NEUMORPHIC BUTTONS
         ------------------------------------------------------------- */
         .stButton > button {
             background: var(--neu-surface) !important;
             color: var(--text-primary) !important;
             border: none !important;
-            border-radius: 16px !important;
-            padding: 0.65rem 1.4rem !important;
+            border-radius: 14px !important;
+            padding: 0.65rem 1.25rem !important;
             font-weight: 600 !important;
-            font-size: 0.95rem !important;
+            font-size: 0.92rem !important;
             box-shadow: var(--shadow-raised-sm) !important;
-            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
-            letter-spacing: 0.01em !important;
+            transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1) !important;
         }
 
         .stButton > button:hover {
@@ -287,25 +191,25 @@ def apply_styles():
             transform: translateY(1px) !important;
         }
 
-        /* Primary Call-To-Action Button */
+        /* Primary Call-to-Action */
         .stButton > button[kind="primary"],
         .stButton > button[data-testid="baseButton-primary"] {
             background: var(--primary-gradient) !important;
             color: #ffffff !important;
-            box-shadow: 6px 6px 16px var(--neu-dark), -6px -6px 16px var(--neu-light), 0 0 20px var(--primary-glow) !important;
+            box-shadow: 4px 4px 14px var(--neu-shadow-dark), -4px -4px 14px var(--neu-shadow-light), 0 0 16px var(--primary-glow) !important;
             font-weight: 700 !important;
         }
 
         .stButton > button[kind="primary"]:hover,
         .stButton > button[data-testid="baseButton-primary"]:hover {
-            box-shadow: 8px 8px 20px var(--neu-dark), -8px -8px 20px var(--neu-light), 0 0 26px var(--primary-glow) !important;
-            transform: translateY(-2px) scale(1.01) !important;
+            box-shadow: 6px 6px 18px var(--neu-shadow-dark), -6px -6px 18px var(--neu-shadow-light), 0 0 22px var(--primary-glow) !important;
+            transform: translateY(-2px) !important;
             color: #ffffff !important;
         }
 
         .stButton > button[kind="primary"]:active,
         .stButton > button[data-testid="baseButton-primary"]:active {
-            box-shadow: inset 3px 3px 6px rgba(0,0,0,0.4), inset -3px -3px 6px rgba(255,255,255,0.2) !important;
+            box-shadow: inset 3px 3px 6px rgba(0,0,0,0.35) !important;
             transform: translateY(1px) !important;
         }
 
@@ -314,8 +218,8 @@ def apply_styles():
             background: var(--neu-surface) !important;
             color: var(--primary) !important;
             border: none !important;
-            border-radius: 16px !important;
-            padding: 0.75rem 1.6rem !important;
+            border-radius: 14px !important;
+            padding: 0.75rem 1.4rem !important;
             font-weight: 700 !important;
             box-shadow: var(--shadow-raised-sm) !important;
             transition: all 0.2s ease !important;
@@ -332,31 +236,27 @@ def apply_styles():
         }
 
         /* -------------------------------------------------------------
-           STREAMLIT TABS (NEUMORPHIC SEGMENTED CONTROL)
+           STREAMLIT TABS (SEGMENTED NEUMORPHIC CONTROL)
         ------------------------------------------------------------- */
-        div[data-testid="stTabs"] {
-            margin-top: 1rem;
-        }
-
         div[data-baseweb="tab-list"] {
             background: var(--neu-surface) !important;
-            padding: 8px !important;
-            border-radius: 20px !important;
+            padding: 6px !important;
+            border-radius: 16px !important;
             box-shadow: var(--shadow-inset-sm) !important;
-            gap: 10px !important;
+            gap: 8px !important;
             border-bottom: none !important;
-            margin-bottom: 1.8rem !important;
+            margin-bottom: 1.5rem !important;
         }
 
         button[data-baseweb="tab"] {
             border: none !important;
-            border-radius: 14px !important;
-            padding: 10px 22px !important;
+            border-radius: 12px !important;
+            padding: 9px 20px !important;
             color: var(--text-secondary) !important;
             background: transparent !important;
             font-weight: 600 !important;
-            font-size: 0.95rem !important;
-            transition: all 0.25s ease !important;
+            font-size: 0.92rem !important;
+            transition: all 0.2s ease !important;
         }
 
         button[data-baseweb="tab"]:hover {
@@ -375,173 +275,13 @@ def apply_styles():
         }
 
         /* -------------------------------------------------------------
-           NEUMORPHIC RESULT DISPLAY CARD
-        ------------------------------------------------------------- */
-        .neu-result-card {
-            background: var(--neu-surface);
-            border-radius: 24px;
-            padding: 2rem;
-            box-shadow: var(--shadow-raised);
-            margin-top: 1.6rem;
-            margin-bottom: 1.6rem;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            animation: neuFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        @keyframes neuFadeIn {
-            from { opacity: 0; transform: translateY(14px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .neu-result-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-bottom: 1.4rem;
-        }
-
-        .neu-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 10px 22px;
-            border-radius: 9999px;
-            font-size: 1.25rem;
-            font-weight: 800;
-            letter-spacing: 0.02em;
-            background: var(--neu-surface);
-            box-shadow: var(--shadow-raised-sm);
-        }
-
-        .neu-badge-pos {
-            color: var(--pos-color);
-            border-left: 4px solid var(--pos-color);
-        }
-        .neu-badge-neu {
-            color: var(--neu-color);
-            border-left: 4px solid var(--neu-color);
-        }
-        .neu-badge-neg {
-            color: var(--neg-color);
-            border-left: 4px solid var(--neg-color);
-        }
-
-        .neu-confidence-meter {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 8px 18px;
-            border-radius: 9999px;
-            background: var(--neu-surface);
-            box-shadow: var(--shadow-inset-sm);
-            font-family: var(--font-code);
-            font-size: 0.95rem;
-            font-weight: 700;
-            color: var(--text-primary);
-        }
-
-        /* Detected Vocabulary Token Chips */
-        .neu-token-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 0.75rem;
-        }
-
-        .neu-token-tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            padding: 5px 14px;
-            border-radius: 12px;
-            font-size: 0.85rem;
-            font-family: var(--font-code);
-            font-weight: 600;
-            background: var(--neu-surface);
-            box-shadow: 3px 3px 7px var(--neu-dark), -3px -3px 7px var(--neu-light);
-            color: var(--primary);
-            transition: all 0.2s ease;
-        }
-
-        .neu-token-tag:hover {
-            box-shadow: 1px 1px 3px var(--neu-dark), -1px -1px 3px var(--neu-light);
-            transform: scale(1.04);
-        }
-
-        /* -------------------------------------------------------------
-           STAT TILES & MINI METRICS
-        ------------------------------------------------------------- */
-        .neu-stat-tile {
-            background: var(--neu-surface);
-            border-radius: 20px;
-            padding: 1.4rem;
-            box-shadow: var(--shadow-raised-sm);
-            text-align: center;
-            transition: all 0.25s ease;
-            margin-bottom: 1rem;
-        }
-
-        .neu-stat-tile:hover {
-            box-shadow: var(--shadow-raised);
-            transform: translateY(-2px);
-        }
-
-        .neu-stat-num {
-            font-size: 1.85rem;
-            font-weight: 800;
-            color: var(--text-primary);
-            letter-spacing: -0.02em;
-            line-height: 1.1;
-        }
-
-        .neu-stat-lbl {
-            font-size: 0.82rem;
-            font-weight: 700;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-top: 0.4rem;
-        }
-
-        /* -------------------------------------------------------------
-           TACTILE HISTORY CARDS (SIDEBAR)
-        ------------------------------------------------------------- */
-        .neu-history-item {
-            background: var(--neu-surface);
-            padding: 0.9rem 1.1rem;
-            border-radius: 16px;
-            box-shadow: var(--shadow-raised-sm);
-            margin-bottom: 0.75rem;
-            border-left: 4px solid var(--primary);
-            transition: all 0.2s ease;
-        }
-
-        .neu-history-item:hover {
-            box-shadow: var(--shadow-raised);
-            transform: translateX(3px);
-        }
-
-        /* -------------------------------------------------------------
-           FILE UPLOADER OVERRIDES
-        ------------------------------------------------------------- */
-        div[data-testid="stFileUploader"] {
-            background: var(--neu-surface);
-            border-radius: 22px;
-            padding: 1.5rem;
-            box-shadow: var(--shadow-inset-sm);
-            border: 2px dashed rgba(var(--neu-dark-rgb), 0.7);
-        }
-
-        /* -------------------------------------------------------------
-           PROGRESS BARS & PROGRESS METERS
+           PROGRESS BARS & INSET TRACKS
         ------------------------------------------------------------- */
         div[data-testid="stProgress"] > div {
             background: var(--neu-surface) !important;
             border-radius: 9999px !important;
             box-shadow: var(--shadow-inset-sm) !important;
-            height: 12px !important;
+            height: 10px !important;
             overflow: hidden !important;
         }
 
@@ -551,29 +291,224 @@ def apply_styles():
         }
 
         /* -------------------------------------------------------------
-           EXPANDER & FOOTER
+           CUSTOM NEUMORPHIC HTML MODULES
         ------------------------------------------------------------- */
-        div[data-testid="stExpander"] {
-            background: var(--neu-surface) !important;
-            border-radius: 18px !important;
-            box-shadow: var(--shadow-raised-sm) !important;
-            border: none !important;
-            margin-top: 1rem;
+        .neu-hero-container {
+            text-align: center;
+            padding: 2.4rem 1.5rem 1.8rem 1.5rem;
+            background: var(--neu-surface);
+            border-radius: 26px;
+            box-shadow: var(--shadow-raised);
+            border: 1px solid var(--neu-border);
+            margin-bottom: 1.8rem;
         }
 
-        .neu-footer {
+        .neu-pill-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            background: var(--neu-surface);
+            box-shadow: var(--shadow-raised-sm);
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .neu-led-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--pos-color);
+            box-shadow: 0 0 8px var(--pos-color);
+            animation: neuBreathe 2s infinite ease-in-out;
+        }
+
+        @keyframes neuBreathe {
+            0%, 100% { opacity: 0.8; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.25); }
+        }
+
+        .neu-hero-h1 {
+            font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin: 0 0 0.5rem 0;
+            color: var(--text-primary);
+            line-height: 1.15;
+        }
+
+        .neu-hero-h1 span {
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .neu-hero-desc {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            max-width: 620px;
+            margin: 0 auto;
+            line-height: 1.55;
+        }
+
+        /* Result Card */
+        .neu-result-box {
+            background: var(--neu-surface);
+            border-radius: 20px;
+            padding: 1.6rem;
+            box-shadow: var(--shadow-raised);
+            border: 1px solid var(--neu-border);
+            margin-top: 1.4rem;
+            margin-bottom: 1.4rem;
+            animation: neuSlideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes neuSlideIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .neu-result-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 1.2rem;
+        }
+
+        .neu-sentiment-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 20px;
+            border-radius: 9999px;
+            font-size: 1.15rem;
+            font-weight: 800;
+            background: var(--neu-surface);
+            box-shadow: var(--shadow-raised-sm);
+        }
+
+        .neu-pill-pos { color: var(--pos-color); border-left: 4px solid var(--pos-color); }
+        .neu-pill-neu { color: var(--neu-color); border-left: 4px solid var(--neu-color); }
+        .neu-pill-neg { color: var(--neg-color); border-left: 4px solid var(--neg-color); }
+
+        .neu-conf-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 9999px;
+            background: var(--neu-surface);
+            box-shadow: var(--shadow-inset-sm);
+            font-family: var(--font-code);
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .neu-token-chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 12px;
+            border-radius: 10px;
+            font-size: 0.82rem;
+            font-family: var(--font-code);
+            font-weight: 600;
+            background: var(--neu-surface);
+            box-shadow: 2px 2px 5px var(--neu-shadow-dark), -2px -2px 5px var(--neu-shadow-light);
+            color: var(--primary);
+            margin: 3px;
+            transition: all 0.15s ease;
+        }
+
+        .neu-token-chip:hover {
+            transform: translateY(-1px);
+            box-shadow: 3px 3px 7px var(--neu-shadow-dark), -3px -3px 7px var(--neu-shadow-light);
+        }
+
+        /* Stat Tile */
+        .neu-card-tile {
+            background: var(--neu-surface);
+            border-radius: 18px;
+            padding: 1.25rem;
+            box-shadow: var(--shadow-raised-sm);
             text-align: center;
-            padding: 3.5rem 1rem 2rem 1rem;
-            margin-top: 3.5rem;
-            border-top: 1px solid rgba(128, 128, 128, 0.12);
+            border: 1px solid var(--neu-border);
+            transition: transform 0.2s ease;
+        }
+
+        .neu-card-tile:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-raised);
+        }
+
+        .neu-tile-val {
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            font-family: var(--font-code);
+            line-height: 1.1;
+        }
+
+        .neu-tile-lbl {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-top: 0.35rem;
+        }
+
+        /* Sidebar History Card */
+        .neu-history-card {
+            background: var(--neu-surface);
+            padding: 0.85rem 1rem;
+            border-radius: 14px;
+            box-shadow: var(--shadow-raised-sm);
+            margin-bottom: 0.65rem;
+            border-left: 4px solid var(--primary);
+            transition: transform 0.15s ease;
+        }
+
+        .neu-history-card:hover {
+            transform: translateX(3px);
+            box-shadow: var(--shadow-raised);
+        }
+
+        /* Telemetry Inset Bar */
+        .neu-inset-bar {
+            background: var(--neu-surface);
+            border-radius: 16px;
+            padding: 0.75rem 1rem;
+            box-shadow: var(--shadow-inset-sm);
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 0.6rem;
+            margin-bottom: 0.6rem;
+        }
+
+        /* Footer */
+        .neu-footer-bar {
+            text-align: center;
+            padding: 3rem 1rem 1.8rem 1rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--neu-border);
             color: var(--text-secondary);
             font-size: 0.9rem;
         }
 
         .neu-footer-pill {
             display: inline-block;
-            margin-top: 0.75rem;
-            padding: 8px 22px;
+            margin-top: 0.65rem;
+            padding: 7px 20px;
             border-radius: 9999px;
             background: var(--neu-surface);
             box-shadow: var(--shadow-raised-sm);
@@ -585,53 +520,93 @@ def apply_styles():
 
 def hero_html():
     return """
-        <div class="neu-hero">
-            <div class="neu-pill-tag">
-                <span class="neu-pulse-dot"></span>
-                SVM AI Core Online • TF-IDF Vectorized
+        <div class="neu-hero-container">
+            <div class="neu-pill-badge">
+                <span class="neu-led-dot"></span>
+                AI Core Online • Linear SVM & TF-IDF
             </div>
-            <h1 class="neu-hero-title">Sentify <span>AI</span></h1>
-            <p class="neu-hero-subtitle">
-                Tactile Neomorphic sentiment intelligence engine. Experience fine-grained polarity classification with calibrated multi-class probabilities and keyword explainability.
+            <h1 class="neu-hero-h1">Sentify <span>AI</span></h1>
+            <p class="neu-hero-desc">
+                High-precision sentiment intelligence engine with calibrated multi-class probability scoring, instant telemetry, and vocabulary explainability.
             </p>
+        </div>
+    """
+
+def telemetry_bar_html(chars: int, words: int, sentences: int, read_time_sec: int):
+    return f"""
+        <div class="neu-inset-bar">
+            <div style="text-align: center;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Characters</span><br>
+                <strong style="font-size: 0.95rem; color: var(--text-primary); font-family: var(--font-code);">{chars}</strong>
+            </div>
+            <div style="text-align: center;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Words</span><br>
+                <strong style="font-size: 0.95rem; color: var(--text-primary); font-family: var(--font-code);">{words}</strong>
+            </div>
+            <div style="text-align: center;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Sentences</span><br>
+                <strong style="font-size: 0.95rem; color: var(--text-primary); font-family: var(--font-code);">{sentences}</strong>
+            </div>
+            <div style="text-align: center;">
+                <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Est. Read Time</span><br>
+                <strong style="font-size: 0.95rem; color: var(--text-primary); font-family: var(--font-code);">~{read_time_sec}s</strong>
+            </div>
         </div>
     """
 
 def result_card_html(label: str, confidence: float, breakdown: dict, matched_tokens: list):
     meta = {
-        "positive": {"icon": "😊", "class": "neu-badge-pos", "title": "POSITIVE", "accent": "var(--pos-color)"},
-        "neutral": {"icon": "😐", "class": "neu-badge-neu", "title": "NEUTRAL", "accent": "var(--neu-color)"},
-        "negative": {"icon": "😠", "class": "neu-badge-neg", "title": "NEGATIVE", "accent": "var(--neg-color)"}
+        "positive": {"icon": "😊", "pill_class": "neu-pill-pos", "title": "POSITIVE", "accent": "var(--pos-color)"},
+        "neutral": {"icon": "😐", "pill_class": "neu-pill-neu", "title": "NEUTRAL", "accent": "var(--neu-color)"},
+        "negative": {"icon": "😠", "pill_class": "neu-pill-neg", "title": "NEGATIVE", "accent": "var(--neg-color)"}
     }
     current = meta.get(label, meta["neutral"])
 
-    tokens_html = "".join([f'<span class="neu-token-tag">#{t}</span>' for t in matched_tokens]) if matched_tokens else "<span style='color: var(--text-muted); font-size: 0.85rem;'>No strong vocabulary triggers matched</span>"
+    tokens_html = "".join([f'<span class="neu-token-chip">#{t}</span>' for t in matched_tokens]) if matched_tokens else "<span style='color: var(--text-muted); font-size: 0.85rem;'>No strong vocabulary signals detected</span>"
 
     return f"""
-        <div class="neu-result-card">
-            <div class="neu-result-header">
-                <div class="neu-badge {current['class']}">
+        <div class="neu-result-box">
+            <div class="neu-result-row">
+                <div class="neu-sentiment-pill {current['pill_class']}">
                     <span>{current['icon']}</span>
                     <span>{current['title']}</span>
                 </div>
-                <div class="neu-confidence-meter">
-                    <span style="color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase;">Confidence</span>
-                    <span style="color: {current['accent']}; font-size: 1.15rem;">{confidence:.1%}</span>
+                <div class="neu-conf-pill">
+                    <span style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase;">Confidence</span>
+                    <span style="color: {current['accent']}; font-size: 1.1rem;">{confidence:.1%}</span>
                 </div>
             </div>
-            <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary); margin-bottom: 0.4rem;">
-                Detected Vocabulary Signals:
+            <div style="font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary); margin-bottom: 0.35rem;">
+                Detected Vocabulary Triggers:
             </div>
-            <div class="neu-token-container">
+            <div style="display: flex; flex-wrap: wrap; gap: 4px;">
                 {tokens_html}
+            </div>
+        </div>
+    """
+
+def probability_cards_html(p_pos: float, p_neu: float, p_neg: float):
+    return f"""
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-top: 1rem; margin-bottom: 1.2rem;">
+            <div class="neu-card-tile" style="border-top: 4px solid var(--pos-color);">
+                <div class="neu-tile-val" style="color: var(--pos-color);">{p_pos:.1%}</div>
+                <div class="neu-tile-lbl">Positive Likelihood</div>
+            </div>
+            <div class="neu-card-tile" style="border-top: 4px solid var(--neu-color);">
+                <div class="neu-tile-val" style="color: var(--neu-color);">{p_neu:.1%}</div>
+                <div class="neu-tile-lbl">Neutral Likelihood</div>
+            </div>
+            <div class="neu-card-tile" style="border-top: 4px solid var(--neg-color);">
+                <div class="neu-tile-val" style="color: var(--neg-color);">{p_neg:.1%}</div>
+                <div class="neu-tile-lbl">Negative Likelihood</div>
             </div>
         </div>
     """
 
 def footer_html():
     return """
-        <div class="neu-footer">
-            Designed & Engineered with Neomorphic Precision by
+        <div class="neu-footer-bar">
+            Engineered with Neomorphic Precision by
             <br>
             <div class="neu-footer-pill">
                 <strong>Nischal Bhandari</strong> • School of Engineering (SOE), Pokhara University
