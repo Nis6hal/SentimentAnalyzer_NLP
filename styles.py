@@ -106,6 +106,28 @@ def apply_styles():
             font-family: var(--font-main) !important;
         }
 
+        /* Remove default Streamlit top decoration stripe & header borders */
+        [data-testid="stDecoration"] {
+            display: none !important;
+            height: 0px !important;
+        }
+
+        header[data-testid="stHeader"],
+        .stApp > header {
+            background: transparent !important;
+            border-bottom: none !important;
+            box-shadow: none !important;
+        }
+
+        div[data-testid="stAppViewContainer"] {
+            background-color: var(--bg-base) !important;
+        }
+
+        .block-container {
+            padding-top: 2rem !important;
+            padding-bottom: 3rem !important;
+        }
+
         .stApp {
             background-color: var(--bg-base) !important;
             color: var(--text-primary) !important;
