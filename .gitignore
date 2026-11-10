@@ -1,17 +1,48 @@
-# Python / Streamlit
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.env
+*.so
+
+# Environments
+.env
 .venv/
 venv/
 ENV/
-build/
-dist/
+env/
 
-# OS / Editor specific
+# Model Weights & Large Datasets (keep raw/large cache out of git)
+ml/data/raw/*.parquet
+ml/data/raw/*.tar.gz
+ml/data/raw/*.csv
+ml/experiments/mlruns/
+ml/artifacts/transformer/checkpoint-*/
+ml/artifacts/**/*.bin
+ml/artifacts/**/*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Database
+*.db
+*.sqlite3
+sentimentiq.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS Specific
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
-
+.vscode/

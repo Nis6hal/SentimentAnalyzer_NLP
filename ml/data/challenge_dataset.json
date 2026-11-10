@@ -1,0 +1,99 @@
+[
+  {
+    "id": "neg_01",
+    "category": "negation",
+    "text": "The movie was not bad at all, in fact I thoroughly enjoyed it.",
+    "ground_truth": "positive"
+  },
+  {
+    "id": "neg_02",
+    "category": "negation",
+    "text": "I can not say that I am satisfied with this purchase.",
+    "ground_truth": "negative"
+  },
+  {
+    "id": "neg_03",
+    "category": "negation",
+    "text": "The hotel was by no means luxurious, but it wasn't terrible either.",
+    "ground_truth": "neutral"
+  },
+  {
+    "id": "neg_04",
+    "category": "negation",
+    "text": "Never disappointed by their punctual delivery and great food.",
+    "ground_truth": "positive"
+  },
+  {
+    "id": "sarc_01",
+    "category": "sarcasm",
+    "text": "Oh fantastic, another software crash right before I saved my 3 hours of work.",
+    "ground_truth": "negative"
+  },
+  {
+    "id": "sarc_02",
+    "category": "sarcasm",
+    "text": "Just wonderful, my flight was delayed for another 6 hours. Absolutely loving airport benches.",
+    "ground_truth": "negative"
+  },
+  {
+    "id": "sarc_03",
+    "category": "sarcasm",
+    "text": "What a genius idea to schedule a mandatory 8 AM meeting on Sunday morning.",
+    "ground_truth": "negative"
+  },
+  {
+    "id": "mix_01",
+    "category": "mixed_sentiment",
+    "text": "The display and camera are absolutely stunning, but the battery life is dreadfully poor.",
+    "ground_truth": "neutral"
+  },
+  {
+    "id": "mix_02",
+    "category": "mixed_sentiment",
+    "text": "Customer support was polite and responsive, though the defect itself took weeks to resolve.",
+    "ground_truth": "neutral"
+  },
+  {
+    "id": "info_01",
+    "category": "informal_slang",
+    "text": "Bro this new track is straight heat, totally goated!",
+    "ground_truth": "positive"
+  },
+  {
+    "id": "info_02",
+    "category": "informal_slang",
+    "text": "Ngl the food was mid and the wait time was outrageous.",
+    "ground_truth": "negative"
+  },
+  {
+    "id": "neu_01",
+    "category": "neutral_fact",
+    "text": "Pokhara University conducted the semester examination on Tuesday morning.",
+    "ground_truth": "neutral"
+  },
+  {
+    "id": "neu_02",
+    "category": "neutral_fact",
+    "text": "The package arrived at 2:15 PM and was signed by the building manager.",
+    "ground_truth": "neutral"
+  },
+  {
+    "id": "neu_03",
+    "category": "neutral_fact",
+    "text": "This notebook contains 120 pages of ruled paper with a cardboard backing.",
+    "ground_truth": "neutral"
+  },
+  {
+    "id": "long_01",
+    "category": "long_form",
+    "text": "Having tested dozens of wireless headphones over the past five years, I was eager to see if these could replace my daily studio monitors. The soundstage is remarkably broad and the acoustic clarity in the high frequencies is second to none. Build quality feels sturdy and comfortable for extended sessions.",
+    "ground_truth": "positive"
+  },
+  {
+    "id": "long_02",
+    "category": "long_form",
+    "text": "We booked a three-night stay based on glowing online recommendations, but the reality was thoroughly disappointing. The air conditioner malfunctioned throughout the night, the shower drain was blocked, and repeated calls to the reception desk yielded no assistance whatsoever.",
+    "ground_truth": "negative"
+  }
+]
+

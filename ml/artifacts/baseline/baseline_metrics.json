@@ -1,0 +1,46 @@
+{
+  "model_type": "LogisticRegression_Baseline",
+  "val_accuracy": 0.6595,
+  "val_macro_f1": 0.6382,
+  "test_accuracy": 0.5868,
+  "test_macro_f1": 0.5837,
+  "test_weighted_f1": 0.5865,
+  "per_class_f1": {
+    "negative": 0.5998,
+    "neutral": 0.586,
+    "positive": 0.5655
+  },
+  "classification_report": {
+    "negative": {
+      "precision": 0.5478967097042898,
+      "recall": 0.6625535129690254,
+      "f1-score": 0.5997948250313462,
+      "support": 3971.0
+    },
+    "neutral": {
+      "precision": 0.646413330623857,
+      "recall": 0.5358827493261455,
+      "f1-score": 0.5859813944920328,
+      "support": 5936.0
+    },
+    "positive": {
+      "precision": 0.5451348182883939,
+      "recall": 0.5873684210526315,
+      "f1-score": 0.565464126469396,
+      "support": 2375.0
+    },
+    "accuracy": 0.58679368181078,
+    "macro avg": {
+      "precision": 0.5798149528721802,
+      "recall": 0.5952682277826008,
+      "f1-score": 0.5837467819975917,
+      "support": 12282.0
+    },
+    "weighted avg": {
+      "precision": 0.5949765965033288,
+      "recall": 0.58679368181078,
+      "f1-score": 0.5864800609240349,
+      "support": 12282.0
+    }
+  }
+}

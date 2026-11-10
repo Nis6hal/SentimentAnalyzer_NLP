@@ -1,0 +1,61 @@
+{
+  "dataset_name": "TweetEval-Sentiment-3Class",
+  "provenance": "cardiffnlp/tweet_eval",
+  "version": "1.0.0",
+  "labels": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "random_seed": 42,
+  "splits": {
+    "train": {
+      "initial_samples": 45615,
+      "final_samples": 45583,
+      "nulls_dropped": 0,
+      "empty_dropped": 0,
+      "conflicts_dropped": 3,
+      "duplicates_dropped": 26,
+      "class_distribution": {
+        "1": 20653,
+        "2": 17839,
+        "0": 7091
+      },
+      "mean_char_len": 106.51900927977536,
+      "mean_word_len": 19.238312528793628,
+      "max_word_len": 35
+    },
+    "validation": {
+      "initial_samples": 2000,
+      "final_samples": 2000,
+      "nulls_dropped": 0,
+      "empty_dropped": 0,
+      "conflicts_dropped": 0,
+      "duplicates_dropped": 0,
+      "class_distribution": {
+        "1": 869,
+        "2": 819,
+        "0": 312
+      },
+      "mean_char_len": 107.124,
+      "mean_word_len": 19.444,
+      "max_word_len": 31
+    },
+    "test": {
+      "initial_samples": 12284,
+      "final_samples": 12282,
+      "nulls_dropped": 0,
+      "empty_dropped": 0,
+      "conflicts_dropped": 1,
+      "duplicates_dropped": 0,
+      "class_distribution": {
+        "1": 5936,
+        "0": 3971,
+        "2": 2375
+      },
+      "mean_char_len": 90.45065950170982,
+      "mean_word_len": 14.859224881941051,
+      "max_word_len": 32
+    }
+  }
+}
